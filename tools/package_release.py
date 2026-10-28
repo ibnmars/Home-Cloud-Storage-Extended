@@ -145,7 +145,7 @@ def validate_staging(staging: Path) -> None:
     patch = core / "SKSE/Plugins/DynamicStringDistributor/skymoji.esp/HCSE_OII_Storage.json"
     entries = json.loads(patch.read_text())
     if entries != [{"form_id": "0x800|Home Cloud Storage.esp", "type": "PERK EPFD", "index": 0,
-                    "string": " <font face='$Iconographia'>t</font> <br> Storage "}]:
+                    "string": " <font face='$Iconographia'>V</font> <br> Storage "}]:
         raise ValueError("Invalid OII storage patch")
 
 

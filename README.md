@@ -23,7 +23,7 @@ An addon for [Home Cloud Storage](https://www.nexusmods.com/skyrimspecialedition
   its configured modifier is used when available; otherwise, the shortcut uses
   Left Shift.
 - Integration with [Oblivion Interaction Icons](https://www.nexusmods.com/skyrimspecialedition/mods/52743)
-  adds a chest icon to the Storage prompt through
+  adds the standard container interaction icon to the Storage prompt through
   [Dynamic String Distributor](https://www.nexusmods.com/skyrimspecialedition/mods/107676).
 - The shared container is renamed from **Cloud Container** to **Storage**
   for a more immersive feel.
