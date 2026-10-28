@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+    <moduleName>@NAME@</moduleName>
+    <moduleDependencies operator="And">
+        <fileDependency file="Home Cloud Storage.esp" state="Active" />
+        <fileDependency file="SKSE\Plugins\CraftingInventoryExtender.dll" state="Missing" />
+    </moduleDependencies>
+    <installSteps order="Explicit">
+        <installStep name="Installation">
+            <optionalFileGroups order="Explicit">
+                <group name="@NAME@" type="SelectAll">
+                    <plugins order="Explicit">
+                        <plugin name="Install mod">
+                            <description />
+                            <files>
+                                <folder source="core" destination="" priority="0" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Required" />
+                            </typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+    </installSteps>
+</config>

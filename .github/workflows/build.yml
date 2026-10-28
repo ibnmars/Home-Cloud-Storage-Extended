@@ -1,0 +1,34 @@
+name: Build and test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Checkout the pinned vcpkg registry
+        uses: actions/checkout@v7
+        with:
+          repository: microsoft/vcpkg
+          ref: ee12231b20c95013c6638d845d04c91559a1d1ff
+          path: build-tools/vcpkg
+      - name: Bootstrap vcpkg
+        shell: pwsh
+        run: ./build-tools/vcpkg/bootstrap-vcpkg.bat -disableMetrics
+      - name: Build and test Release
+        shell: pwsh
+        run: ./tools/Build.ps1 -Preset release -VcpkgRoot ./build-tools/vcpkg
+      - name: Build and test Debug
+        shell: pwsh
+        run: ./tools/Build.ps1 -Preset debug -VcpkgRoot ./build-tools/vcpkg -RunTests

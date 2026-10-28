@@ -1,0 +1,13 @@
+// Copyright (C) 2026 IbnMars
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Additional permissions: see EXCEPTIONS.md.
+#pragma once
+
+#include <string_view>
+
+namespace HCSE::Version {
+inline constexpr std::string_view kName = "@HCSE_NAME@";
+inline constexpr std::string_view kID = "@HCSE_ID@";
+inline constexpr std::string_view kVersion = "@PROJECT_VERSION@";
+inline constexpr std::string_view kPluginFile = "@HCSE_NAME@.esp";
+}

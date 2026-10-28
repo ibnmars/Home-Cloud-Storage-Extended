@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.esp binary
+*.esl binary
+*.esm binary
+*.png binary
+*.zip binary

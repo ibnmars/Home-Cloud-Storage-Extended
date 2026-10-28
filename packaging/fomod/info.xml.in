@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fomod>
+    <Name>@NAME@</Name>
+    <Author>@AUTHOR@</Author>
+    <Version MachineVersion="@VERSION@">@VERSION@</Version>
+    <Description>Cloud crafting and storage integrations for Home Cloud Storage. Requires SKSE and Address Library matching the installed runtime. Do not install together with Skyrim Crafting Inventory Extender.</Description>
+</fomod>

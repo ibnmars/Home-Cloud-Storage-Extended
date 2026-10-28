@@ -1,0 +1,52 @@
+[
+    {
+        "file": "alandtse-CommonLibSSE-NG-39f9d07a6ffabea8fb559eee87ab7d27cd463e8a.tar.gz",
+        "sha256": "cb43e18d29cfcaa5952a23689a88df263b70386e2d2103dcb491c01ef999cec3",
+        "url": "https://github.com/alandtse/CommonLibSSE-NG/archive/39f9d07a6ffabea8fb559eee87ab7d27cd463e8a.tar.gz"
+    },
+    {
+        "file": "ValveSoftware-openvr-60eb187801956ad277f1cae6680e3a410ee0873b-headers-openvr.h",
+        "sha256": "0ffc25d09ddb50c78a56f15cc48fc724c55d1f4d06fd2ca009c9f985158e7f8c",
+        "url": "https://raw.githubusercontent.com/ValveSoftware/openvr/60eb187801956ad277f1cae6680e3a410ee0873b/headers/openvr.h"
+    },
+    {
+        "file": "ValveSoftware-openvr-60eb187801956ad277f1cae6680e3a410ee0873b-lib-win64-openvr_api.lib",
+        "sha256": "b92394fb290d9a99cae64af5ef5a71bf723dea4640f513acb9e43eeaa86cbcf5",
+        "url": "https://raw.githubusercontent.com/ValveSoftware/openvr/60eb187801956ad277f1cae6680e3a410ee0873b/lib/win64/openvr_api.lib"
+    },
+    {
+        "file": "ValveSoftware-openvr-60eb187801956ad277f1cae6680e3a410ee0873b-LICENSE",
+        "sha256": "f56ff606104d4ef18e617921a75c73ad73b5a1a1d70c69590c29de16919e04ad",
+        "url": "https://raw.githubusercontent.com/ValveSoftware/openvr/60eb187801956ad277f1cae6680e3a410ee0873b/LICENSE"
+    },
+    {
+        "file": "Microsoft-DirectXMath-apr2025.tar.gz",
+        "sha256": "8ac7f060d7fcc971d77c5a9f3ff98548ecf119c144a7c2dd9d21f4b66ba94cd4",
+        "url": "https://github.com/Microsoft/DirectXMath/archive/apr2025.tar.gz"
+    },
+    {
+        "file": "Microsoft-DirectXTK-oct2025.tar.gz",
+        "sha256": "317ceac23974bb7347cc75851d195e2c54636433bc48d52e4b5f3275c56cf4b1",
+        "url": "https://github.com/Microsoft/DirectXTK/archive/oct2025.tar.gz"
+    },
+    {
+        "file": "fmtlib-fmt-12.1.0.tar.gz",
+        "sha256": "ea7de4299689e12b6dddd392f9896f08fb0777ac7168897a244a6d6085043fea",
+        "url": "https://github.com/fmtlib/fmt/archive/12.1.0.tar.gz"
+    },
+    {
+        "file": "gabime-spdlog-v1.16.0.tar.gz",
+        "sha256": "8741753e488a78dd0d0024c980e1fb5b5c85888447e309d9cb9d949bdb52aa3e",
+        "url": "https://github.com/gabime/spdlog/archive/v1.16.0.tar.gz"
+    },
+    {
+        "file": "d99kris-rapidcsv-v8.90.tar.gz",
+        "sha256": "b827881309111ef25bc03123d57c73e169cbc64ed3037588fb175e44ee8eb40f",
+        "url": "https://github.com/d99kris/rapidcsv/archive/v8.90.tar.gz"
+    },
+    {
+        "file": "TsudaKageyu-minhook-v1.3.4.tar.gz",
+        "sha256": "1aebeae4ca898330c507860acc2fca2eb335fe446a3a2b8444c3bf8b2660a14e",
+        "url": "https://github.com/TsudaKageyu/minhook/archive/v1.3.4.tar.gz"
+    }
+]
