@@ -1,4 +1,4 @@
-# Home Cloud Storage - Extended
+# [Home Cloud Storage - Extended](https://www.nexusmods.com/skyrimspecialedition/mods/197223)
 
 An addon for [Home Cloud Storage](https://www.nexusmods.com/skyrimspecialedition/mods/102108).
 

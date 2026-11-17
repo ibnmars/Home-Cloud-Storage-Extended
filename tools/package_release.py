@@ -118,7 +118,7 @@ def build_staging(dll: Path, destination: Path | None = None) -> Path:
 
 def validate_staging(staging: Path) -> None:
     core = staging / "core"
-    expected = {PLUGIN_NAME, "SKSE/Plugins/" + DLL_NAME,
+    expected = {PLUGIN_NAME, "HomeCloudStorageExtended_FLM.ini", "SKSE/Plugins/" + DLL_NAME,
                 "SKSE/Plugins/DynamicStringDistributor/skymoji.esp/HCSE_OII_Storage.json"}
     actual = {path.relative_to(core).as_posix() for path in core.rglob("*") if path.is_file()}
     if actual != expected:
